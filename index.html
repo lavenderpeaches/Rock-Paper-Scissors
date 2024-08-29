@@ -6,40 +6,58 @@
     <title>Rock, Paper and Scissors</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
    
     <p id="header">PLAY NOW</p>
+
     <div class="container">
-
         <div class="scores">
+            <p id="text1">SCORES</p>
+           
+            <div class="current">
+                <img src="https://i.imgur.com/twkJbAj.png">
+                <div class="displayMessage">
+                    <p id="Message">Welcome</p>
+                </div>
+            </div>
+           
+            <div class="players">
 
+                <div>
+                    <p id="HumanScore">You : 0</p>
+                </div>
+                <div>
+                    <p id="ComputerScore">Computer : 0</p>
+                </div>
+                
+            </div>
+    
         </div>
-
         <div class="options">
             <p id="choose">CHOOSE YOUR OPTION</p>
             <div class="icons">
 
                 <div class="box">
                     <div>
-                        <img src="https://i.imgur.com/KC3HB3R.png">
+                        <img src="https://i.imgur.com/jPZjk1d.png">
                     </div>
-                    <button>ROCK</button>
+                    <button id="rock">ROCK</button>
                 </div>
 
                 <div class="box">
                     <div>
-                        <img src="https://i.imgur.com/x8C7hup.png">         
+                        <img src="https://i.imgur.com/7lUU5p5.png">         
                     </div>
-                        <button>PAPER</button>
+                        <button id="paper">PAPER</button>
                 </div>
 
                 <div class="box">
                     <div>
-                        <img src="https://i.imgur.com/leDo0qt.png">
+                        <img src="https://i.imgur.com/41BP39s.png">
                     </div>
-                        <button>SCISSORS</button>
+                        <button id="scissors">SCISSORS</button>
                 </div>
                
             </div>
